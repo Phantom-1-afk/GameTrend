@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">GameTrends</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+    <string name="no_data">No data</string>
+    <string name="retry">Retry</string>
+
+    <string name="welcome_title">Welcome!</string>
+    <string name="welcome_subtitle">Game charts analytics for developers and gamers</string>
+    <string name="best_game">BEST GAME</string>
+    <string name="most_popular">MOST POPULAR</string>
+    <string name="most_wished">MOST WISHED</string>
+    <string name="top_rated">TOP RATED</string>
+    <string name="top_metacritic">TOP METACRITIC</string>
+    <string name="least_popular">LEAST POPULAR</string>
+    <string name="view_all_games">View all games</string>
+    <string name="top_games">Top games</string>
+    <string name="upcoming_games">Upcoming games</string>
+
+    <string name="description">Description</string>
+    <string name="information">Information</string>
+    <string name="links">Links</string>
+    <string name="developers">Developers</string>
+    <string name="publishers">Publishers</string>
+    <string name="release_date">Release date</string>
+    <string name="genres">Genres</string>
+    <string name="platforms">Platforms</string>
+    <string name="achievements">Achievements</string>
+    <string name="playtime">Average playtime</string>
+    <string name="website">Official website</string>
+    <string name="reddit">Reddit community</string>
+    <string name="age_rating">Age rating</string>
+    <string name="tags">Tags</string>
+    <string name="ratings_count">%d ratings</string>
+    <string name="hours">hours</string>
+    <string name="no_description">No description</string>
+    <string name="ratings_breakdown">Ratings breakdown</string>
+
+    <string name="exceptional">Exceptional</string>
+    <string name="recommended">Recommended</string>
+    <string name="meh">Meh</string>
+    <string name="skip">Skip</string>
+
+    <string name="settings">Settings</string>
+    <string name="theme_settings">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="language_settings">Language</string>
+    <string name="language_system">System default</string>
+    <string name="language_russian">Russian</string>
+    <string name="language_english">English</string>
+
+    <string name="search">Search</string>
+    <string name="search_hint">Enter game name...</string>
+    <string name="search_min_chars">Enter at least 2 characters</string>
+    <string name="no_results">No results found</string>
+    <string name="search_error">Search error</string>
+
+    <string name="filters">Filters</string>
+    <string name="genre">Genre</string>
+    <string name="platform">Platform</string>
+    <string name="year">Year</string>
+    <string name="apply">Apply</string>
+    <string name="all_genres">All genres</string>
+    <string name="all_platforms">All platforms</string>
+    <string name="all_years">All years</string>
+
+    <string name="profile">Profile</string>
+    <string name="about">About</string>
+    <string name="search_menu">Search</string>
+
+    <string name="rating_everyone">Everyone</string>
+    <string name="rating_everyone_10">0+</string>
+    <string name="rating_teen">13+</string>
+    <string name="rating_mature">17+</string>
+    <string name="rating_adults_only">18+</string>
+
+    <string name="wishlist">Wishlist</string>
+    <string name="added_to_wishlist">Added to wishlist</string>
+    <string name="removed_from_wishlist">Removed from wishlist</string>
+    <string name="add_to_wishlist">Add to wishlist</string>
+    <string name="in_wishlist">In wishlist</string>
+
+    <string-array name="genres_array">
+        <item>All genres</item>
+        <item>Action</item>
+        <item>RPG</item>
+        <item>Shooter</item>
+        <item>Adventure</item>
+        <item>Puzzle</item>
+        <item>Strategy</item>
+        <item>Sports</item>
+    </string-array>
+
+    <string-array name="platforms_array">
+        <item>All platforms</item>
+        <item>PC</item>
+        <item>PlayStation</item>
+        <item>Xbox</item>
+        <item>Nintendo</item>
+        <item>Android</item>
+        <item>iOS</item>
+    </string-array>
+</resources>

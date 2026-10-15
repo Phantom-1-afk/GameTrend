@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/night_background"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/night_background"
+        app:titleTextColor="@color/night_text_primary"
+        app:navigationIcon="@drawable/ic_back" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="24dp"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/language_settings"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/night_text_primary"
+                android:layout_marginBottom="16dp" />
+
+            <RadioGroup
+                android:id="@+id/languageRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp">
+
+                <RadioButton
+                    android:id="@+id/langSystem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/language_system"
+                    android:textColor="@color/night_text_primary"
+                    android:padding="8dp" />
+
+                <RadioButton
+                    android:id="@+id/langRussian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/language_russian"
+                    android:textColor="@color/night_text_primary"
+                    android:padding="8dp" />
+
+                <RadioButton
+                    android:id="@+id/langEnglish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/language_english"
+                    android:textColor="@color/night_text_primary"
+                    android:padding="8dp" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333333"
+                android:layout_marginVertical="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Цветовая палитра"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/night_text_primary"
+                android:layout_marginBottom="16dp" />
+
+            <RadioGroup
+                android:id="@+id/colorRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp">
+
+                <RadioButton
+                    android:id="@+id/colorRed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Красный"
+                    android:textColor="@color/night_text_primary"
+                    android:padding="8dp" />
+
+                <RadioButton
+                    android:id="@+id/colorBlue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Синий"
+                    android:textColor="@color/night_text_primary"
+                    android:padding="8dp" />
+
+                <RadioButton
+                    android:id="@+id/colorGreen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Зелёный"
+                    android:textColor="@color/night_text_primary"
+                    android:padding="8dp" />
+
+                <RadioButton
+                    android:id="@+id/colorPurple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Фиолетовый"
+                    android:textColor="@color/night_text_primary"
+                    android:padding="8dp" />
+
+                <RadioButton
+                    android:id="@+id/colorOrange"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Оранжевый"
+                    android:textColor="@color/night_text_primary"
+                    android:padding="8dp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Для применения цветовой палитры настройки применится автоматически"
+                android:textSize="12sp"
+                android:textColor="@color/night_text_secondary"
+                android:gravity="center"
+                android:layout_marginTop="16dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
